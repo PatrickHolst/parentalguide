@@ -6,7 +6,7 @@ export default class Home extends Component {
     return (
       <div className="container-md">
         <Container>
-          <Carousel fade>
+          <Carousel variant="dark">
             <Carousel.Item>
               <img
                 className="d-block w-100"
@@ -22,11 +22,7 @@ export default class Home extends Component {
                   jolloin tuntematon tulostaja otti kaljuunan ja sekoitti sen
                   tehdäkseen esimerkkikirjan. Se ei ole selvinnyt vain viittä
                   vuosisataa, mutta myös loikan elektroniseen kirjoitukseen,
-                  jääden suurinpiirtein muuntamattomana. Se tuli kuuluisuuteen
-                  1960-luvulla kun Letraset-paperiarkit, joissa oli Lorem Ipsum
-                  pätkiä, julkaistiin ja vielä myöhemmin tietokoneen
-                  julkistusohjelmissa, kuten Aldus PageMaker joissa oli
-                  versioita Lorem Ipsumista.
+                  jääden suurinpiirtein muuntamattomana.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>
@@ -59,7 +55,13 @@ export default class Home extends Component {
                 <h3>Compare Plans</h3>
                 <p>
                   Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
+                  consectetur.Lorem ipsum dolor sit amet, consectetur adipiscing
+                  elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. Se ei ole
+                  selvinnyt vain viittä vuosisataa, mutta myös loikan
+                  elektroniseen kirjoitukseen, jääden suurinpiirtein
+                  muuntamattomana.
                 </p>
               </Carousel.Caption>
             </Carousel.Item>

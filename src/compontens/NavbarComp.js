@@ -25,7 +25,7 @@ export default class NavbarComp extends Component {
                 <Navbar.Brand as={Link} to={"/"}>
                   Parental Guide
                 </Navbar.Brand>
-                <Nav className="me-auto">
+                <Nav className="me-center">
                   <NavDropdown
                     title="Calculations"
                     id="navbarScrollingDropdown"
