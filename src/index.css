@@ -12,9 +12,12 @@ code {
     monospace;
 } */
 
+/* en fin bakgrundsfärg: #d8e2ee */
+
 body,
 html {
   font-family: "MuseoSans";
+  background-image: linear-gradient(to right, #c5adc5, #b2b5e0);
 }
 
 @font-face {
